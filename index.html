@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMEPAGE - HAUSBAZAAR</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    
+</head>
+<body>
+    <header>
+        <h2><a href="index.html">HAUSBAZAAR</a></h2>
+        <nav class="off">
+            <a href="#">Homepage</a>
+            <a href="#">Items</a>
+            <a href="#">News</a>
+        </nav>
+        <span id="menuBtn">
+        </span>
+    </header>
+    <main>
+        <section id="filters">
+        <select id="price">
+            <option value="default" selected>Select</option>
+            <option value="lowtohigh">Low to high</option>
+            <option value="hightolow">High to low</option>
+        </select>
+        <select id="category">
+            <option value="default">All items</option>
+            <option value="shoes">Shoes</option>
+            <option value="hoodies">Hoodies / Sweats</option>
+            <option value="tshirts">T-shirts</option>
+            <option value="pants">Pants / Jeans</option>
+            <option value="jackets">Jackets</option>
+            <option value="accessories">Accessories</option>
+        </select>
+        <button id="filterBtn">Search</button>
+        </section>
+        <section id="content"></section>
+    </main>
+    <footer>
+        <h2>HAUSBAZAAR</h2>
+        <span>
+            <p>Michael Badocha Studio - ©2023</p>
+            <span class="socials">
+                <a href="#"><img src="img/discord.png" alt="Join Our Discord server!"></a>
+                <a href="#"><img src="img/instagram.png" alt="Follow Our Instagram account!"></a>
+            </span>
+            
+        </span>
+    </footer>
+
+<script src="app.js">
+</script>
+</body>
+</html>
