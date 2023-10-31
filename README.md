@@ -1,2 +1,2 @@
 # 666callmesometimes.github.io
-HAUSBAZAAR
+HAUSBAZAAR is a alternative for boring spreadsheets used in FashhionReps world.
