@@ -10,12 +10,12 @@ body {
 }
 
 ::-moz-selection {
-  background-color: #edb32d;
+  background-color: #121212;
   color: white;
 }
 
 ::selection {
-  background-color: #edb32d;
+  background-color: #121212;
   color: white;
 }
 
@@ -49,6 +49,7 @@ nav a:hover {
 section {
   padding: 1rem;
   box-sizing: border-box;
+  padding-top: 6rem;
 }
 
 #content {
@@ -57,7 +58,6 @@ section {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  padding-top: 6rem;
   padding-bottom: 12rem;
   gap: 4rem;
 }
@@ -198,6 +198,54 @@ footer a img {
   gap: 1rem;
 }
 
+footer a {
+  color: #777777;
+  text-decoration: none;
+}
+
+#faq {
+  padding: 8rem;
+  padding-top: 12rem;
+}
+
+#faq h1 {
+  font-weight: 900;
+  font-style: italic;
+  font-family: "Anybody";
+  font-size: 2.4rem;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+#faq summary {
+  font-size: 24px;
+  font-weight: 700;
+  box-sizing: border-box;
+  padding-bottom: 1rem;
+}
+
+#faq summary::marker {
+  color: #d9d9d9;
+}
+
+#faq details {
+  padding: 2rem 0rem 1rem 0rem;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+#faq span img {
+  width: 12px;
+}
+
+#faq details summary {
+  cursor: pointer;
+  transition: margin 200ms ease-out;
+}
+
+#faq details[open] summary {
+  margin-bottom: 10px;
+}
+
 @media screen and (max-width: 1200px) {
   nav {
     width: 40%;
@@ -234,6 +282,9 @@ footer a img {
   }
   .socials {
     flex-direction: row;
+  }
+  #faq {
+    padding: 1rem;
   }
 }
 @media screen and (max-width: 800px) {

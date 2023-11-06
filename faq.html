@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMEPAGE - HAUSBAZAAR</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    
+</head>
+<body>
+    <header>
+        <h2><a href="index.html">HAUSBAZAAR</a></h2>
+        <nav class="off">
+            <a href="#">Homepage</a>
+            <a href="#">Items</a>
+            <a href="#">News</a>
+        </nav>
+        <span id="menuBtn">
+        </span>
+    </header>
+    <main>
+        <section id="faq">
+            <h1>FAQ</h1>
+            <details>
+                <summary>
+                    How to search for items on the spreadsheet?
+                </summary>
+                    Just simply find the filters bar on “Items” subpage. You can sort by the price (Low to high) or by the item type (Hoodies). After applying filters click “Search” and the result should be visible.
+            </details>
+            <details>
+                <summary>
+                    Can i get a QC for items on your website?
+                </summary>
+                Of course! Every item has the <span><img src="img/link.png" alt="Link img"></span> icon. After you click one of those, you will be directed to website with QC photos of your chosen item.
+            </details>
+            <details>
+                <summary>
+                    Should I create an account on Hagobuy?
+                </summary>
+                    Yes, you have to create the account to purchase any of these items. Use my <a href="https://www.hagobuy.com/register?affcode=cfdbq">Link</a> to register on Hagobuy and claim your coupons!
+            </details>
+            <details>
+                <summary>
+                    How to purchase an item on Hagobuy?
+                </summary>
+                    I reccomend you to visit <a href="https://www.hagobuy.com/index/information?information_id=3">Hagobuy</a> website with simple and easy tutorial of how to do it!
+            </details>
+        </section>
+    </main>
+    <footer>
+        <h2>HAUSBAZAAR</h2>
+        <span>
+            <p>HAUSBAZAAR - ©2023</p>
+            <a href="faq.html">FAQ</a>
+            <span class="socials">
+                <a href="#"><img src="img/discord.png" alt="Join Our Discord server!"></a>
+                <a href="#"><img src="img/instagram.png" alt="Follow Our Instagram account!"></a>
+            </span>
+            
+        </span>
+    </footer>
+
+<script>
+const menuBtn = document.querySelector("#menuBtn");
+const menu = document.querySelector("nav");
+
+menuBtn.addEventListener('click' , function() {
+menu.classList.toggle('off');
+});
+</script>
+</body>
+</html>

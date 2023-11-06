@@ -118,6 +118,23 @@ let items = [
         "link": "https://weidian.info/kbrrz",
         "qc": "https://qc.photos/qc?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D4296228263",
     },
+    {
+        "name": "Comme des Garcons button-up shirts",
+        "category": "tshirts",
+        "price": "32",
+        "id": "14",
+        "link": "https://weidian.info/rdbsd",
+        "qc": "https://qc.photos/qc?url=https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fid%3D692705080677",
+    },
+    {
+        "name": "Nike Air Jordan 1 Collection",
+        "category": "shoes",
+        "price": "66",
+        "id": "15",
+        "link": "https://weidian.info/3s6sv",
+        "qc": "https://qc.photos/qc?url=https%3A%2F%2Fweidian.com%2Fitem.html%3FitemID%3D4879275870",
+        "collection": true,
+    },
 ];
 
 
